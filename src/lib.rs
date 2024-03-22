@@ -1,4 +1,5 @@
 extern crate pyo3;
+extern crate difftastic;
 
 use pyo3::exceptions::*;
 use pyo3::prelude::*;
@@ -14,7 +15,7 @@ fn init_mod(_py: Python, m: &PyModule) -> PyResult<()> {
     fn to_object_rs<'a>(
         _py: Python<'a>,
     ) -> PyResult<i64> {
-        Ok(32)
+        Ok(42)
     }
 
 

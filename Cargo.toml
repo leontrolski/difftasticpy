@@ -5,6 +5,7 @@ version = "0.0.1"
 
 [dependencies]
 pyo3 = { version = "0.20.0" }
+difftastic = { git = "https://github.com/leontrolski/difftastic.git" }
 
 
 [lib]
